@@ -1,0 +1,10 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "admin-lte/dist/css/adminlte.min.css";
+
+/* Thème cabinet: bleu marine #1E3A8A, gris #64748B, or #F59E0B */
+:root {
+  --brand-primary: #1E3A8A;
+  --brand-accent: #F59E0B;
+}
+a { color: var(--brand-primary); }
+.btn-primary { background-color: var(--brand-primary); border-color: var(--brand-primary); }
